@@ -27,12 +27,12 @@ function NavBar() {
     setQuery(e.target.value);
   };
 
-  const handleKeyPress = (e) => {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      window.location.href = `/buscar?nombre=${query}`;
-    }
-  };
+  // const handleKeyPress = (e) => {
+  //   if (e.key === 'Enter') {
+  //     e.preventDefault();
+  //     window.location.href = `/buscar?nombre=${query}`;
+  //   }
+  // };
 
   return (
     <>
@@ -71,7 +71,7 @@ function NavBar() {
               aria-label="Search" 
               value={query}
               onChange={handleInputChange}
-              onKeyPress={handleKeyPress}
+              // onKeyPress={handleKeyPress}
               />
             <NavLink className="main-header-buscar-form-button" to={`/buscar?nombre=${query}`}> <FaSearch /></NavLink>
           </form>
