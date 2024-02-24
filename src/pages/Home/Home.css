@@ -58,6 +58,20 @@
 
 }
 
+
+@media screen and (max-width: 1400px) {
+    .buttonBanner{
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .buttonBanner{
+        font-size: 20px;
+    }
+
+}
 .home-categories{
     margin-top: 10vh;
     display: flex;

@@ -19,11 +19,14 @@
     height: 5vh;
 }
 
+
+
 .nav-header-paragraph {
     font-weight: bold;
     font-size: small;
     color: rgb(55, 189, 55);
 }
+
 
 .main-header {
     margin-top: 5vh;
@@ -36,6 +39,8 @@
     height: 10vh;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
 }
+
+
 
 .main-header-logo {
     width: 10%;
@@ -78,6 +83,9 @@
     width: 50%;
 }
 
+
+
+
 .main-header-cart {
     width: 20%;
     display: flex;
@@ -101,8 +109,10 @@
     border: none;
     outline: none;
     transition: border-color 0.3s ease;
-    /* Agregamos transición para suavizar el cambio de color */
 }
+
+
+
 
 .main-header-buscar-form-input:focus {
     border: 2px solid rgb(54, 54, 54);
@@ -227,4 +237,33 @@
     cursor: pointer;
     margin-right: 5%;
     color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-header-paragraph {
+        font-size: 10px;
+    }
+
+    .main-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        height: auto;
+        padding-block: 10px;
+    }
+    .main-header-buscar-form{
+        min-width: 300px;
+    }
+    .navbarCustom {
+        z-index: 99999;
+        background-color: rgb(102, 99, 99);
+        width: 50%;
+    }
+    .customCart{
+        padding: 5%;
+        margin-bottom: 8%;
+    }
+
 }
