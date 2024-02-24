@@ -1,7 +1,7 @@
 import "./Footer.css";
 import { FaInstagram, FaFacebookSquare, FaTwitterSquare, FaTiktok } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import logosTransbank from "../../assets/logos-Transbank.png"
+import logosTransbank from "../../assets/logosTransbank.png"
 
 function Footer() {
   return (
