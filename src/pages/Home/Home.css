@@ -1,0 +1,145 @@
+.slick-prev:before{
+    color: white; /* Color de las flechas */
+    font-size: 25px; /* Tamaño de la fuente de las flechas */
+}
+
+.slick-next:before {
+  color: white; /* Color de las flechas */
+  font-size: 25px; /* Tamaño de la fuente de las flechas */
+}
+
+.slick-prev {
+  left: 50px;
+  display: block !important;
+  position: absolute;
+  z-index:25000
+}
+.slick-next {
+  right: 50px; /* Ajusta la posición derecha de la flecha siguiente */
+}
+
+.Banner1{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/banner1.png");
+    
+    height: 65vh;
+
+}
+
+.Banner2{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/banner2.png");
+    height: 65vh;
+}
+
+
+.Banner3{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/banner3.png");
+    height: 65vh;
+}
+
+.BannerSection{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.buttonBanner{
+    font-size: 70px;
+    margin-block: auto;
+    color: rgb(32, 32, 32);
+    cursor: none;
+
+}
+
+.home-categories{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-categories-item{
+    background-color: grey;
+    width: 25%;
+    padding-block: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-categories-accesorios{
+    background-image: url("../../assets/accesorios.png");
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(100px); /* Efecto visual de desenfoque */
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 25%;
+    padding-block: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: xxx-large;
+}
+
+.home-categories-accesorios:hover{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.home-categories-hombre{
+    background-image: url("../../assets/hombre.png");
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(100px); /* Efecto visual de desenfoque */
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 25%;
+    padding-block: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: xxx-large;
+}
+
+.home-categories-hombre:hover{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.home-categories-mujer{
+    background-image: url("../../assets/mujer.png");
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(100px); /* Efecto visual de desenfoque */
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 25%;
+    padding-block: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: xxx-large;
+}
+
+.home-categories-mujer:hover{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+
+.home-destacados{
+    margin-top: 8vh;
+    margin-bottom: 15vh;
+    width: 80%;
+    margin-inline:auto;
+}

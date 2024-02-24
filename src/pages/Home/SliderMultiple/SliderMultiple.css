@@ -1,0 +1,38 @@
+
+.card1 {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-bottom: 5%;
+}
+
+.card1:hover {
+    transform: translateY(-5px); /* Efecto de levantamiento al pasar el ratón */
+}
+
+.card1 img {
+    width: 100%;
+    max-width: 200px; /* Ajustar el tamaño máximo de la imagen */
+    height: auto;
+    margin-block: 10px; /* Espacio entre la imagen y el texto */
+    margin-inline: auto;
+}
+
+.card1 p {
+    color: #555555;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card1 div {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+}
+
+.section-destacados-title{
+    margin-top: 12vh;
+    margin-bottom: 6vh;
+    text-align: center;
+}

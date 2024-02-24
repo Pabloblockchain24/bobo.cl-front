@@ -1,0 +1,16 @@
+.itemListContainer{
+    margin-top: 10vh;
+    width: 90%;
+    margin-inline: auto;
+}
+
+.customHeader{
+    margin-block: 5vh;
+    text-align: center;
+}
+
+.customHeader2{
+    margin-block: 25vh;
+    text-align: center;
+    font-size: 20px;
+}
